@@ -1,0 +1,23 @@
+* {
+    margin : 0 ;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+html , body {
+    height: 100vh;
+}
+
+#header-xxl {
+    padding: 0.5rem 1rem;
+    background-color: rgb(87, 87, 72);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    margin: 10px;
+}
