@@ -21,3 +21,9 @@ a{
     color: blanchedalmond;
     margin: 10px;
 }
+
+p{
+    font-size: 22px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
