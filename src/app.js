@@ -1,10 +1,12 @@
+import react from "react"
 import Header from "./header"
-import Itemlistcontainer from "./itemListContainer"
+import Main from "./main"
 
 const App = () => {
     return (
         <>
             <Header/>
+            <Main/>
             <footer>
                 <p>FOOTER</p>
             </footer>

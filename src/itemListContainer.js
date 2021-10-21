@@ -1,7 +1,7 @@
 
 const Itemlistcontainer = (props) => {
     return (
-        <p> - BIENVENIDO A PIZZERIA XXL - HAGA SU PEDIDO - </p>
+        <p id= "bienvenido"> - BIENVENIDO/A - HAGA SU PEDIDO - </p>
     )
 }
 
