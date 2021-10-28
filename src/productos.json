@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "Buenos Aires",
+        "img" : "/imagenes/Buenos Aires.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Roma",
+        "img" : "/imagenes/Roma.jpg"
+    }
+    ,
+    {
+        "id": 3,
+        "nombre": "New York",
+        "img": "/imagenes/New York.jpg"
+    }
+    ,
+    {
+        "id": 4,
+        "nombre": "Rio de Janeiro",
+        "img": "/imagenes/Rio de Janeiro.jpg"
+    }
+    ,
+    {
+        "id": 5,
+        "nombre": "Berlín",
+        "img": "/imagenes/Berlin.jpg"
+    }
+] 

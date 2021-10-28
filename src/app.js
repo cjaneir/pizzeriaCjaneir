@@ -1,15 +1,17 @@
 import react from "react"
 import Header from "./header"
 import Main from "./main"
+import Footer from "./footer"
+
+
+
 
 const App = () => {
     return (
         <>
             <Header/>
             <Main/>
-            <footer>
-                <p>FOOTER</p>
-            </footer>
+            <Footer/>
         </>
     )
 }

@@ -11,29 +11,47 @@ html , body {
 main{
     flex: 1;
     background-color:grey; 
-    height: 80vh;
+    height: auto;
+}
+
+footer{
+    flex: 1;
+    background-color:rgb(207, 10, 44,1); 
+    height: 25vh;
+}
+
+.textfoot{
+    color:rgb(206, 192, 192);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 h1{
     color:black;
-        font-size: 50px;
-        font-weight: normal;
-        text-align:center;
-        word-spacing: 8px;
-        padding: 30px;
+    font-size: 50px;
+    font-weight: normal;
+    text-align:center;
+    word-spacing: 8px;
+    padding: 30px;
 }
 
 h3{
     color:black;
-        font-size: 30px;
-        font-weight: normal;
-        text-align:justify;
-        word-spacing: 8px;
-        padding: 30px;
-        margin-left: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    text-align:justify;
+    word-spacing: 8px;
+    padding: 30px;
+    margin-left: 20px;
 }
 
 #header-xxl {
+    flex: 1;
+    height: 15vh;
     padding: 0.5rem 1rem;
     background-color: rgb(87, 87, 72);
     display: flex;
@@ -53,9 +71,10 @@ a{
     color: rgb(153, 23, 23);
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
+    margin-bottom: 30px;
 }
 
-#botonCantidad{
+/* .botonCantidad{
     display:flex;
     font-size: 20px;
     font-weight: 600;
@@ -67,4 +86,35 @@ a{
     justify-content: center;
     margin-left: 50px;
     margin-top: 20px;
+} */
+
+.articulosCont{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(105, 90, 93);
+
+}
+
+.nombresArt{
+    font-size: 40px;
+    color: rgb(14, 13, 13);
+}
+
+.imgPizzas{
+    height:300px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.loadingText{
+    font-size: 45px;
+    color:rgb(206, 192, 192) ;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:rgb(207, 10, 44,1);
 }

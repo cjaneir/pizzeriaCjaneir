@@ -5,7 +5,7 @@ const Header = () => {
     return (
         
         <header id="header-xxl">
-            <h2>PIZZERIA XXL</h2>
+            <h2>WORLD PIZZA</h2>
             <Nav/>
         </header>
         

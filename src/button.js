@@ -13,9 +13,9 @@ const Button = () => {
     return (
         <>
         <div>
-        <button id = "botonCantidad" onClick={mas}> MAS PIZZA </button>
-        <button id = "botonCantidad" onClick={menos}> MENOS PIZZA </button>
-        <button id = "botonCantidad" onClick={resetea}> RESETEAR </button>
+        <button className = "botonCantidad" onClick={mas}> MAS PIZZA </button>
+        <button className = "botonCantidad" onClick={menos}> MENOS PIZZA </button>
+        <button className = "botonCantidad" onClick={resetea}> RESETEAR </button>
         </div>
         <h3>
             SU PEDIDO = {contador} PIZZA/S
