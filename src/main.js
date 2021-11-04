@@ -1,5 +1,6 @@
 import Itemlistcontainer from "./itemListContainer"
-/* import Button from "./button" */
+import ItemDetailContainer from "./itemDetailContainer"
+
 
 const Main = () => {
     return (
@@ -10,8 +11,7 @@ const Main = () => {
                 </h1>
                 
                 <Itemlistcontainer/>
-
-                {/* <Button/> */}
+                <ItemDetailContainer/>
             
             </main>
             

@@ -1,4 +1,5 @@
 import Cartwidget from "./cartWidget"
+/* import { Link } from "react-router-dom" */
 
 const Nav = () => {
     return (
@@ -14,3 +15,4 @@ const Nav = () => {
 }
 
 export default Nav
+

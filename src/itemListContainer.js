@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import articulos from "./productos.json"
 import ItemList from "./itemList"
 
+
 const ItemlistContainer = (props) => {
 
         const [productos, setProductos] = useState([]);{
@@ -20,7 +21,9 @@ const ItemlistContainer = (props) => {
             productos.length === 0 ?
               <p className = "loadingText">LOADING WORLD PIZZA...</p> :
             < ItemList productos = {productos} />
+            
         }
+        
         </>
     )
   }

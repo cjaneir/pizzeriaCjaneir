@@ -118,3 +118,12 @@ a{
     padding-bottom: 60px;
     background-color:rgb(207, 10, 44,1);
 }
+
+.product{
+    background-color: rgb(203, 132, 233);
+}
+
+.productDetail{
+    font-size: 40px;
+    color: rgb(14, 13, 13);
+}
